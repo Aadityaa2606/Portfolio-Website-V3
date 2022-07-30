@@ -64,9 +64,9 @@ body {
 /* FRONT PAGE START  */
 
 .frontpage {
-  background-image: url("../img/bg.jpg");
   padding-top: 76px;
-  background-size: cover;
+
+  background-color: #8D8DAA;
 }
 
 .padding-intro-page {
@@ -83,7 +83,7 @@ body {
   width: auto;
   height: 500px;
   margin-top: 5%;
-  box-shadow: 10px 10px 8px rgb(70, 138, 215);
+  box-shadow: 10px 10px 8px #DFDFDE;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   -webkit-filter: grayscale(0) blur(0);
@@ -110,11 +110,13 @@ body {
 .hello {
   margin-top: 20%;
   font-size: 50px;
+  color: #F7F5F2;
 }
 
 .name {
   padding-left: 75px;
   font-size: 80px;
+  color: #F7F5F2;
 }
 
 @media screen and (max-width: 470px) {
@@ -126,6 +128,7 @@ body {
 .quote {
   padding-left: 75px;
   font-size: 20px;
+  color: #F7F5F2;
 }
 
 /* FRONT PAGE END  */
@@ -135,14 +138,16 @@ body {
 .hobbi-heading {
   text-align: center;
   font-size: 60px;
-  color: rgb(255, 255, 255);
+  color: #8D8DAA;
 }
 
 .aboutmepage {
   padding-top: 76px;
   font-size: 30px;
-  background: radial-gradient(#a23982, #1f1013);
-  color: rgb(255, 255, 255);
+  /* background: radial-gradient(#a23982, #1f1013); */
+  background-color: #DFDFDE;
+  color: #8D8DAA;
+  position: relative;
 }
 
 .hobi-quote {
@@ -157,7 +162,6 @@ body {
 
 .head {
   font-size: 30px;
-
 }
 
 /* wavie letters */
@@ -166,7 +170,7 @@ body {
   font-size: 40px;
   position: relative;
   display: inline-block;
-  color: rgb(255, 255, 255);
+  color: #8D8DAA;
   animation: flip 2s infinite;
   animation-delay: calc(0.2s * var(--i));
 }
@@ -181,13 +185,14 @@ body {
 /* SKILLS PAGE START  */
 
 .skill-section {
-  background-color: #4854617c;
-  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
-  
+  /* background-color: #4854617c;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
+  background-color: #8D8DAA;
+  position: relative;
 }
 
 .skill-heading {
-  color: rgb(255, 255, 255);
+  color: #F7F5F2;
   font-family: "Edu TAS Beginner", cursive;
   text-align: center;
   font-size: 60px;
@@ -200,7 +205,7 @@ body {
 
 .percentage {
   display: inline;
-  color: rgb(255, 255, 255);
+  color: #F7F5F2;
 }
 
 .inBetweenSpace {
@@ -222,7 +227,7 @@ body {
   margin: 0 auto;
   width: 500px;
   margin: 60px, auto;
-  color: #fff;
+  color: #F7F5F2;
   padding: 20px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0, 25), 0 10px 10px rgba(0, 0, 0, 0, 22);
 }
@@ -340,13 +345,15 @@ body {
 .contact-heading {
   font-family: "Edu TAS Beginner", cursive;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: #8D8DAA;
   padding-top: 15%;
   font-size: 80px;
 }
 
 .contact {
-  background: radial-gradient(#a23982, #1f1013);
+  z-index: -2;
+  /* background: radial-gradient(#a23982, #1f1013); */
+  background-color: #DFDFDE;
   -webkit-animation: fadeIn 1 1s ease-out;
   -moz-animation: fadeIn 1 1s ease-out;
   -o-animation: fadeIn 1 1s ease-out;
@@ -449,8 +456,8 @@ body {
   position: absolute;
   width: 0px;
   opacity: 0.75;
-  background-color: white;
-  box-shadow: #e9f1f1 0px 0px 20px 2px;
+  background-color: #000000;
+  box-shadow: #8D8DAA 0px 0px 20px 2px;
   opacity: 0;
   top: 100vh;
   bottom: 0px;
@@ -801,4 +808,113 @@ body {
   100% {
     opacity: 1;
   }
+}
+
+
+.Curve1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.Curve1 svg {
+  position: relative;
+  display: block;
+  width: calc(103% + 1.3px);
+  height: 149px;
+}
+
+.Curve1 .shape-fill {
+  fill: #DFDFDE;
+}
+
+
+.Curve2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.Curve2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 155px;
+}
+
+.Curve2 .shape-fill {
+  fill: #8D8DAA;
+}
+
+.Curve3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.Curve3 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 155px;
+  transform: rotateY(180deg);
+}
+
+.Curve3 .shape-fill {
+  fill: #DFDFDE;
+}
+
+.Curve4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.Curve4 svg {
+  position: relative;
+  display: block;
+  width: calc(135% + 1.3px);
+  height: 166px;
+}
+
+.Curve4 .shape-fill {
+  fill: #8D8DAA;
+}
+
+.Curve5 {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.Curve5 svg {
+  position: relative;
+  display: block;
+  width: calc(132% + 1.3px);
+  height: 223px;
+}
+
+.Curve5 .shape-fill {
+  fill: #8D8DAA;
+}
+
+@media screen and (width: ) {
+  
 }
