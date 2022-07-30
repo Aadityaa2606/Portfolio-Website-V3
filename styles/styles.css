@@ -64,7 +64,7 @@ body {
 /* FRONT PAGE START  */
 
 .frontpage {
-  background-image: url("../img/bg.jpg");
+  background-image: url("./img/bg.jpg");
   padding-top: 76px;
   background-size: cover;
 }
