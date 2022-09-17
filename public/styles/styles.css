@@ -149,7 +149,7 @@ body {
 /* focus animation start  */
 .name {
   padding-left: 75px;
-  font-size: 80px;
+  font-size: 70px;
   color: #395B64;
   cursor: pointer;
   display: flex;
@@ -229,7 +229,7 @@ body {
 
 .quote {
   padding-left: 75px;
-  font-size: 25px;
+  font-size: 20px;
   color: #395B64;
 }
 
